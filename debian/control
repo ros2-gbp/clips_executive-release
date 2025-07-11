@@ -1,0 +1,12 @@
+Source: ros-kilted-cx-utils
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, libspdlog-dev, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-clips-vendor, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-cx-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, libspdlog-dev, ros-kilted-clips-vendor, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Description: Utilities for the ROS2 CLIPS-Executive
