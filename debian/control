@@ -1,0 +1,12 @@
+Source: ros-kilted-cx-tf2-pose-tracker-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-clips-vendor, ros-kilted-cx-plugin, ros-kilted-cx-utils, ros-kilted-geometry-msgs, ros-kilted-pluginlib, ros-kilted-tf2-ros, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-cx-tf2-pose-tracker-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-clips-vendor, ros-kilted-cx-plugin, ros-kilted-cx-utils, ros-kilted-geometry-msgs, ros-kilted-pluginlib, ros-kilted-tf2-ros, ros-kilted-ros-workspace
+Description: Track poses via periodic tf lookups.
