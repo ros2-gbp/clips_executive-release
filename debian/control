@@ -1,0 +1,12 @@
+Source: ros-kilted-cx-file-load-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-clips-vendor, ros-kilted-cx-plugin, ros-kilted-cx-utils, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-cx-file-load-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-clips-vendor, ros-kilted-cx-plugin, ros-kilted-cx-utils, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Description: CLIPS plugin that can load CLIPS code via load* and batch*
