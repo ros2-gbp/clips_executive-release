@@ -1,0 +1,12 @@
+Source: ros-kilted-clips-executive
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-clips-executive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-cx-ament-index-plugin, ros-kilted-cx-bringup, ros-kilted-cx-clips-env-manager, ros-kilted-cx-config-plugin, ros-kilted-cx-example-plugin, ros-kilted-cx-executive-plugin, ros-kilted-cx-file-load-plugin, ros-kilted-cx-msgs, ros-kilted-cx-plugin, ros-kilted-cx-protobuf-plugin, ros-kilted-cx-ros-comm-gen, ros-kilted-cx-ros-msgs-plugin, ros-kilted-cx-tf2-pose-tracker-plugin, ros-kilted-cx-utils, ros-kilted-ros-workspace
+Description: ROS2 CLIPS-Executive meta package and documentation
