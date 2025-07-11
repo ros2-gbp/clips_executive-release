@@ -1,0 +1,12 @@
+Source: ros-kilted-cx-bringup
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-cx-ros-comm-gen, ros-kilted-example-interfaces, ros-kilted-launch-ros, ros-kilted-std-msgs, ros-kilted-std-srvs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-cx-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pkg-config, ros-kilted-cx-ament-index-plugin, ros-kilted-cx-clips-env-manager, ros-kilted-cx-config-plugin, ros-kilted-cx-example-plugin, ros-kilted-cx-executive-plugin, ros-kilted-cx-file-load-plugin, ros-kilted-cx-protobuf-plugin, ros-kilted-cx-ros-comm-gen, ros-kilted-cx-ros-msgs-plugin, ros-kilted-example-interfaces, ros-kilted-launch-ros, ros-kilted-std-msgs, ros-kilted-std-srvs, ros-kilted-ros-workspace
+Description: Central CX bringup scripts and parameters for launching CLIPS example programs
