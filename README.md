@@ -1,2 +1,1 @@
-# cx_example_plugin
-This package offers the `cx::ExamplePlugin` CLIPS plugin which may be used as a boilerplate to write new plugins.
+The documentation can be found [here](https://carologistics.github.io/clips_executive/clips_executive/index.html).
