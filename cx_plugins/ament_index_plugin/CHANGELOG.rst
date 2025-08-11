@@ -2,6 +2,11 @@
 Changelog for package cx_ament_index_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2025-08-06)
+------------------
+* 0.1.3
+* Contributors: Tarik Viehmann
+
 0.1.2 (2025-07-16)
 ------------------
 
