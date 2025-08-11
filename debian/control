@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-example-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-clips-vendor, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-example-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-clips-vendor, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: CLIPS plugin example that does not actually do anything and rather serves as boilerplate
