@@ -1,0 +1,21 @@
+ros-jazzy-cx-ament-index-plugin (0.1.3-1noble) noble; urgency=high
+
+  * 0.1.3
+  * Contributors: Tarik Viehmann
+
+ -- Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>  Tue, 05 Aug 2025 22:00:00 -0000
+
+ros-jazzy-cx-ament-index-plugin (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>  Tue, 15 Jul 2025 22:00:00 -0000
+
+ros-jazzy-cx-ament-index-plugin (0.1.1-1noble) noble; urgency=high
+
+  * project: prepare for first ros2 release
+  * Contributors: Tarik Viehmann
+
+ -- Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>  Thu, 10 Jul 2025 22:00:00 -0000
+
+
