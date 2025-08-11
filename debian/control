@@ -1,0 +1,12 @@
+Source: ros-jazzy-cx-tf2-pose-tracker-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-clips-vendor, ros-jazzy-cx-plugin, ros-jazzy-cx-utils, ros-jazzy-geometry-msgs, ros-jazzy-pluginlib, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-cx-tf2-pose-tracker-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clips-vendor, ros-jazzy-cx-plugin, ros-jazzy-cx-utils, ros-jazzy-geometry-msgs, ros-jazzy-pluginlib, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: Track poses via periodic tf lookups.
