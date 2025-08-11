@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-ros-msgs-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), libicu-dev, ros-rolling-ament-cmake, ros-rolling-clips-vendor, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rcutils, ros-rolling-rosidl-typesupport-cpp, ros-rolling-rosidl-typesupport-introspection-cpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-ros-msgs-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libicu-dev, ros-rolling-clips-vendor, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rcutils, ros-rolling-rosidl-typesupport-cpp, ros-rolling-rosidl-typesupport-introspection-cpp, ros-rolling-ros-workspace
+Description: CLIPS plugin for using generic ROS topics via introspection API
