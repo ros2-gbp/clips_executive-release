@@ -1,0 +1,12 @@
+Source: ros-jazzy-clips-executive
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clips-executive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-cx-ament-index-plugin, ros-jazzy-cx-bringup, ros-jazzy-cx-clips-env-manager, ros-jazzy-cx-config-plugin, ros-jazzy-cx-example-plugin, ros-jazzy-cx-executive-plugin, ros-jazzy-cx-file-load-plugin, ros-jazzy-cx-msgs, ros-jazzy-cx-plugin, ros-jazzy-cx-protobuf-plugin, ros-jazzy-cx-ros-comm-gen, ros-jazzy-cx-ros-msgs-plugin, ros-jazzy-cx-tf2-pose-tracker-plugin, ros-jazzy-cx-utils, ros-jazzy-ros-workspace
+Description: ROS2 CLIPS-Executive meta package and documentation
