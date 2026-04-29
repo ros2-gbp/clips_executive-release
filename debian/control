@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-bringup
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-cx-protobuf-plugin, ros-rolling-cx-ros-comm-gen, ros-rolling-example-interfaces, ros-rolling-launch-ros, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_bringup/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-cx-ament-index-plugin, ros-rolling-cx-clips-env-manager, ros-rolling-cx-config-plugin, ros-rolling-cx-example-plugin, ros-rolling-cx-executive-plugin, ros-rolling-cx-file-load-plugin, ros-rolling-cx-protobuf-plugin, ros-rolling-cx-ros-comm-gen, ros-rolling-cx-ros-msgs-plugin, ros-rolling-example-interfaces, ros-rolling-launch-ros, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Description: Central CX bringup scripts and parameters for launching CLIPS example programs
