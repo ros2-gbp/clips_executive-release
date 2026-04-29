@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-clips-vendor, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_plugin/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-clips-vendor, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Description: Base class for CLIPS plugins
