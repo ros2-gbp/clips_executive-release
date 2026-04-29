@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-protobuf-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), libprotobuf32t64, python3-jinja2, ros-rolling-ament-cmake, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-protobuf-comm, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_protobuf_plugin/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-protobuf-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libprotobuf32t64, python3-jinja2, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-protobuf-comm, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: CX plugin to send and receive protobuf messages
