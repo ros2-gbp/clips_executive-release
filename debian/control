@@ -1,0 +1,12 @@
+Source: ros-lyrical-clips-executive
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/clips_executive/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-clips-executive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-cx-ament-index-plugin, ros-lyrical-cx-bringup, ros-lyrical-cx-clips-env-manager, ros-lyrical-cx-config-plugin, ros-lyrical-cx-example-plugin, ros-lyrical-cx-executive-plugin, ros-lyrical-cx-file-load-plugin, ros-lyrical-cx-msgs, ros-lyrical-cx-plugin, ros-lyrical-cx-protobuf-plugin, ros-lyrical-cx-ros-comm-gen, ros-lyrical-cx-ros-msgs-plugin, ros-lyrical-cx-tf2-pose-tracker-plugin, ros-lyrical-cx-utils, ros-lyrical-ros-workspace
+Description: ROS2 CLIPS-Executive meta package and documentation
