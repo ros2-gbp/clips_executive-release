@@ -1,0 +1,12 @@
+Source: ros-rolling-clips-executive
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/clips_executive/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-clips-executive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-cx-ament-index-plugin, ros-rolling-cx-bringup, ros-rolling-cx-clips-env-manager, ros-rolling-cx-config-plugin, ros-rolling-cx-example-plugin, ros-rolling-cx-executive-plugin, ros-rolling-cx-file-load-plugin, ros-rolling-cx-msgs, ros-rolling-cx-plugin, ros-rolling-cx-protobuf-plugin, ros-rolling-cx-ros-comm-gen, ros-rolling-cx-ros-msgs-plugin, ros-rolling-cx-tf2-pose-tracker-plugin, ros-rolling-cx-utils, ros-rolling-ros-workspace
+Description: ROS2 CLIPS-Executive meta package and documentation
