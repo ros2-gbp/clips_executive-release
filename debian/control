@@ -1,0 +1,12 @@
+Source: ros-lyrical-cx-bringup
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-cx-protobuf-plugin, ros-lyrical-cx-ros-comm-gen, ros-lyrical-example-interfaces, ros-lyrical-launch-ros, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/cx_bringup/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-cx-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-cx-ament-index-plugin, ros-lyrical-cx-clips-env-manager, ros-lyrical-cx-config-plugin, ros-lyrical-cx-example-plugin, ros-lyrical-cx-executive-plugin, ros-lyrical-cx-file-load-plugin, ros-lyrical-cx-protobuf-plugin, ros-lyrical-cx-ros-comm-gen, ros-lyrical-cx-ros-msgs-plugin, ros-lyrical-example-interfaces, ros-lyrical-launch-ros, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Description: Central CX bringup scripts and parameters for launching CLIPS example programs
