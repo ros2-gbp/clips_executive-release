@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-clips-env-manager
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-bond, ros-rolling-bondcpp, ros-rolling-clips-vendor, ros-rolling-cx-msgs, ros-rolling-cx-plugin, ros-rolling-lifecycle-msgs, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_clips_env_manager/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-clips-env-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-bond, ros-rolling-bondcpp, ros-rolling-clips-vendor, ros-rolling-cx-msgs, ros-rolling-cx-plugin, ros-rolling-lifecycle-msgs, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Description: Lifecycle node for managing CLIPS environments
