@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-ros-param-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_ros_param_plugin/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-ros-param-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: CLIPS plugin to retrieve ROS params from own or other nodes
