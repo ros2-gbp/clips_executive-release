@@ -1,0 +1,12 @@
+Source: ros-lyrical-cx-tf2-pose-tracker-plugin
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-clips-vendor, ros-lyrical-cx-plugin, ros-lyrical-cx-utils, ros-lyrical-geometry-msgs, ros-lyrical-pluginlib, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/cx_tf2_pose_tracker_plugin/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-cx-tf2-pose-tracker-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-clips-vendor, ros-lyrical-cx-plugin, ros-lyrical-cx-utils, ros-lyrical-geometry-msgs, ros-lyrical-pluginlib, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: Track poses via periodic tf lookups.
