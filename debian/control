@@ -1,0 +1,12 @@
+Source: ros-rolling-cx-ros-comm-gen
+Section: misc
+Priority: optional
+Maintainer: Tarik Viehmann <viehmann@kbsg.rwth-aachen.de>
+Build-Depends: debhelper (>= 9.0.0), python3-jinja2, ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/cx_ros_comm_gen/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-cx-ros-comm-gen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-dev, python3-jinja2, ros-rolling-ament-index-python, ros-rolling-cx-plugin, ros-rolling-cx-utils, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rosidl-runtime-py, ros-rolling-ros-workspace
+Description: Generate CLIPS bindings to use ROS messages, actions and services
